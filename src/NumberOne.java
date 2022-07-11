@@ -5,9 +5,9 @@ public class NumberOne {
 
     public static boolean IsPalindrome(String text) {
 
-        String arr[] = new String[text.length()];
+        String[] arr = new String[text.length()];
 
-        String arr2[] = new String[text.length()];
+        String[] arr2 = new String[text.length()];
 
         for (int y = 0; y < text.length(); y++) {
             arr[y] = String.valueOf(text.charAt(y));
