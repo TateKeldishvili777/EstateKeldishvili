@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class NumberTwo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter amount of money(თეთრებში): ");
         int amount = scanner.nextInt();
 
-        System.out.println(minSplit(amount));
+        System.out.printf("minSplit is: %d", minSplit(amount));
     }
 
     public static int minSplit(int amount) {

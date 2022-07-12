@@ -4,6 +4,7 @@ public class NumberFour {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Enter sequence: ");
         String sequence = scanner.next();
 
         System.out.println(isProperly(sequence));

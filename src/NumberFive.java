@@ -4,6 +4,8 @@ public class NumberFive {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter amount of stairs: ");
         int stearsCount = scanner.nextInt();
 
         System.out.println(countVariants(stearsCount));

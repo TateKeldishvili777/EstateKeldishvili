@@ -3,6 +3,16 @@ import java.util.Arrays;
 
 public class NumberOne {
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter text: ");
+        String text = scanner.nextLine();
+
+        System.out.println(IsPalindrome(text));
+
+    }
+
     public static boolean IsPalindrome(String text) {
 
         String[] arr = new String[text.length()];
@@ -21,15 +31,6 @@ public class NumberOne {
 
         return Arrays.equals(arr, arr2);
     }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String text = scanner.nextLine();
-
-        System.out.println(IsPalindrome(text));
-
-    }
-
 
 }
 
